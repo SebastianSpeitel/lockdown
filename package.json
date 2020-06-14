@@ -1,0 +1,30 @@
+{
+  "name": "lockdown",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/main.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianSpeitel/lockdown.git"
+  },
+  "author": "Sebastian Speitel, Aron Kinne",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/SebastianSpeitel/lockdown/issues"
+  },
+  "homepage": "https://github.com/SebastianSpeitel/lockdown#readme",
+  "dependencies": {
+    "vue": "^3.0.0-beta.14"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-replace": "^2.3.3",
+    "@vue/compiler-sfc": "^3.0.0-beta.14",
+    "rollup": "^2.15.0",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-vue": "^6.0.0-beta.6"
+  }
+}
